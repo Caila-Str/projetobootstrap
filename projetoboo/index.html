@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./imagens/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Fulljoshi</title>
+</head>
+<body>
+    <header >
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <div class="container">
+                    <a style="color: yellow; font-size: 25px; text-decoration: none;" href=""> Fullj<span><img style="width: 30px;" src="imagens/logo.png" alt=""></span>shi</a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"                       aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>    
+                    </button>
+                    
+                    <div class="nav-menu p-3 mb-2 bg-warning text-white">
+                        <div class="justify-content-end collapse navbar-collapse" id="navbarNav">
+                            
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="cadastro.html">Cadastro</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="forum.html">Ajuda</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                            </ul>   
+                            <form>
+                                <div class="form">
+                                    <input type="text" placeholder="....">
+                                    <input  type="submit" name="acao" value="Pesquisa">
+                                 </div>
+                        
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <div class="bg-primary categoria">
+            <h2>Mangás</h2>
+        </div><!--categoria-->
+
+        <section class="row ">
+            <sidebar class="lojas justify-content-center col-sm-4">
+                <ul class="btn-group-vertical row">
+                    <li class="list active col btn btn-outline-primary" data-filter="all"><a href=""></a>all</li>
+                    <li class="list col btn btn-outline-primary" data-filter="josei"><a href=""></a>Josei</li>
+                    <li class="list col btn btn-outline-primary" data-filter="shounen"><a href=""></a>Shounen</li>
+                    <li class="list col btn btn-outline-primary" data-filter="shoujo"><a href=""></a>Shoujo</li>
+                    <li class="list col btn btn-outline-primary" data-filter="seinen"><a href=""></a>Seinin</li>
+                    <li class="list col btn btn-outline-primary" data-filter="yaoi"><a href=""></a>yaoi</li>
+                </ul>
+            </sidebar>
+
+            <section class="col-sm-8 row">
+                <div class="produto shoujo col-sm">
+                    <a href="#"><img width="170" src="./imagens/fishi.jpg" onmouseover="destaque(this)" onmouseout="normal(this)"></a>
+                    <a href="">Banana Fish</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+                <div class="produto shoujo col-sm">
+                    <a href="#"><img width="170" src="./imagens/furi.jpg" onmouseover="destaque(this)" onmouseout="normal(this)" ></a>
+                    <a href="">Furi Fura</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+                <div class="produto josei col-sm" >
+                    <a href="#"><img width="170" src="./imagens/game.jpg"onmouseover="destaque(this)" onmouseout="normal(this)"></a>
+                    <a href="">Game - Suit no Sukima</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+                <div class="produto yaoi col-sm">
+                    <a href="#"><img width="170" src="./imagens/given.jpg" onmouseover="destaque(this)" onmouseout="normal(this)"></a>
+                    <a href="">Given</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+                <div class="produto shounen col-sm">
+                    <a href="#"><img width="170" src="./imagens/goku.jpg" onmouseover="destaque(this)" onmouseout="normal(this)"></a>
+                    <a href="">Dragon Ball</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+                <div class="produto shounen col-sm">
+                    <a href="#"><img width="170" src="./imagens/jojo.jpg" onmouseover="destaque(this)" onmouseout="normal(this)"></a>
+                    <a href="">Jojo Bizarre Adventure</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+                <div class="produto josei col-sm">
+                    <a href="#"><img width="170" src="./imagens/josei.jpg" onmouseover="destaque(this)" onmouseout="normal(this)"></a>
+                    <a href="">The Wedding Eve</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+                <div class="produto seinen col-sm">
+                    <a href="#"><img width="170" src="./imagens/nev.jpg" onmouseover="destaque(this)" onmouseout="normal(this)"></a>
+                    <a href="">The Promised Nerveland</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+                <div class="produto shoujo col-sm">
+                    <a href="#"><img width="170" src="./imagens/omaestro.jpg" onmouseover="destaque(this)" onmouseout="normal(this)"></a>
+                    <a href="">O Maestro</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+                <div class="produto yaoi col-sm" >
+                    <a href="#"><img width="170" src="./imagens/love.jpg" onmouseover="destaque(this)" onmouseout="normal(this)"></a>
+                    <a href="">Boys Love</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+                
+                <div class="produto shounen col-sm">
+                    <a href="#"><img width="170"  src="./imagens/my.jpg" onmouseover="destaque(this)" onmouseout="normal(this)"></a>
+                    <a href="">My Hero Academia</a>
+                    <p>$40,00</p>
+                </div><!--manga-->
+
+            </section>
+
+            
+        </section>
+    </main>
+
+
+    <script
+         src="https://code.jquery.com/jquery-3.5.1.js"
+         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.list').click(function(){
+            const value = $(this).attr('data-filter');
+            if (value == 'all'){
+              $('.produto').show('1000');
+            }
+            else{
+              $('.produto').not('.'+ value).hide('1000');
+              $('.produto').filter('.' + value).show('1000');
+            }
+          })
+
+          $('.list').click(function(){
+            $(this).addClass('active').siblings().removeClass('active'); 
+          })
+        })
+        </script>
+
+        <script>
+            let destaque = (imagem) => {
+            console.log(imagem);
+            if(imagem.width == 180
+            )
+                imagem.width= 170;
+            else
+                imagem.width = 180
+                ;
+            };
+
+
+            let normal = (imagem) => {
+            console.log(imagem);
+            imagem.width= 170;
+            };
+
+
+        </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

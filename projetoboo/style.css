@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    width: 60%;
+    display: flex;
+}
+
+.form input[type=text]{
+    width: 150px;
+}
+
+.form input[type=submit]{
+    width: 60px;
+    font-size: 14px;
+    float: left;
+}
+
+ul{
+    width: 80%;
+}
+
+div.categoria{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    border: 1px solid white;
+}
+
+.lojas{ 
+    text-align: center;
+}
+
+.bg{
+    width: 100%;
+}
+
+.produto{
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid blue;
+    cursor: pointer;
+}
+
+.produto a{
+    width: 100%;
+    display: block;
+}
+
+.row{
+   margin-right: 0;
+}
+
+.img-lojas{
+    width: 170px;
+    height: 260px;
+    
+}
+
+
+.bg-section{
+    padding: 0;
+}
